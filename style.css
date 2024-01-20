@@ -132,3 +132,33 @@ header {
     border: 15px red solid;
     border-radius: 100%;
 }
+
+.forth-text2 {
+    width: 395px;
+}
+
+.fifth {
+    margin: auto;
+    width: 1600px;
+    height: 7335px;
+
+}
+
+.fifth-text1 {
+    text-align: center;
+
+}
+
+.fifth-text2 {
+    margin: auto;
+    text-align: center;
+    width: 1070px;
+    height: 96px;
+}
+
+.fifth-image {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
