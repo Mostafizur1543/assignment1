@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: 'Merriweather', serif;
+}
 
 h3 {
     color: white;
@@ -24,6 +27,10 @@ h2 {
 
 .color-red {
     color: #F00;
+}
+.comingtext-mod{
+    font-size: 50px;
+    padding-bottom: 20px;
 }
 
 .padding-24 {
@@ -152,7 +159,7 @@ header {
 }
 
 .fifth-image {
-    
+
     text-align: center;
 }
 
@@ -160,12 +167,14 @@ header {
     display: flex;
     justify-content: center;
 }
-.maiya-img{
+
+.maiya-img {
     position: relative;
     top: 22px;
     left: 58px;
     z-index: 1;
 }
+
 #dis-50 {
     position: relative;
     top: -30px;
@@ -174,8 +183,9 @@ header {
 
 
 }
+
 .gift-box {
     position: relative;
     top: 150px;
-    
+
 }
