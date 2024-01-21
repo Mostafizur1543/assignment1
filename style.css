@@ -137,16 +137,11 @@ header {
     width: 395px;
 }
 
-.fifth {
-    margin: auto;
-    width: 1600px;
-    height: 7335px;
-
-}
 
 .fifth-text1 {
     text-align: center;
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fifth-text2 {
@@ -157,8 +152,5 @@ header {
 }
 
 .fifth-image {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: auto;
 }
