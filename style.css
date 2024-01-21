@@ -147,10 +147,35 @@ header {
 .fifth-text2 {
     margin: auto;
     text-align: center;
-    width: 1070px;
+    width: 600px;
     height: 96px;
 }
 
 .fifth-image {
-    margin: auto;
+    
+    text-align: center;
+}
+
+.fifth-image2 {
+    display: flex;
+    justify-content: center;
+}
+.maiya-img{
+    position: relative;
+    top: 22px;
+    left: 58px;
+    z-index: 1;
+}
+#dis-50 {
+    position: relative;
+    top: -30px;
+    left: 160px;
+    z-index: 2;
+
+
+}
+.gift-box {
+    position: relative;
+    top: 150px;
+    
 }
