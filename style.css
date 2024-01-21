@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Merriweather', serif;
 }
@@ -28,7 +29,8 @@ h2 {
 .color-red {
     color: #F00;
 }
-.comingtext-mod{
+
+.comingtext-mod {
     font-size: 50px;
     padding-bottom: 20px;
 }
@@ -188,4 +190,123 @@ header {
     position: relative;
     top: 150px;
 
+}
+
+.sixth {
+
+    width: 1320px;
+    margin: 100px auto 100px auto;
+
+}
+
+.product-image {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.product-anim {
+    transition: transform .3s;
+
+}
+
+.product-anim:hover {
+    transform: scale(1.1);
+}
+
+.seventh {
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.seventh-text {
+    flex-shrink: 0;
+    margin: auto;
+    width: 1320px;
+    border-radius: 16px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.mail-img {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.mail-text {
+    width: 896px;
+    margin: auto;
+
+}
+
+.Newsletter {
+    padding-bottom: 22px;
+}
+
+input {
+    border-radius: 50px 0px 0px 50px;
+    width: 648px;
+    height: 72px;
+    background: #FFF;
+    border: none;
+}
+
+.email-sec {
+    display: flex;
+    justify-content: center;
+    /* border: 1px blue solid; */
+    border-radius: 50px;
+    padding-bottom: 50px;
+
+}
+
+#sub-button {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+}
+
+::placeholder {
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+.sec-marg-bottom {
+    margin-bottom: 60px;
+}
+.eighth {
+    background-color: #070211;
+}
+.rights {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+}
+.address {
+    padding-top: 120px;
+    padding-left: ;
+}
+.eighth-cont {
+    width: 1320px;
+    margin: auto;
+    padding: 50px 0;
+
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+hr {
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
